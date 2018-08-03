@@ -1,0 +1,7 @@
+################### Userbeat Configuration Example #########################
+
+############################# Userbeat ######################################
+
+userbeat:
+  # Defines how often an event is sent to the output
+  period: 1s

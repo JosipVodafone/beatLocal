@@ -1,0 +1,5 @@
+= Userbeat Docs
+
+Welcome to the Userbeat documentation.
+
+
