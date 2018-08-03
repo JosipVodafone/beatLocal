@@ -1,0 +1,64 @@
+2018-08-03T16:06:07.061+0200	INFO	instance/beat.go:548	Home path: [C:\Users\jverkovic\beat-local\src\github.com\JosipVodafone\userbeat] Config path: [C:\Users\jverkovic\beat-local\src\github.com\JosipVodafone\userbeat] Data path: [C:\Users\jverkovic\beat-local\src\github.com\JosipVodafone\userbeat\data] Logs path: [C:\Users\jverkovic\beat-local\src\github.com\JosipVodafone\userbeat\logs]
+2018-08-03T16:06:07.097+0200	INFO	instance/beat.go:555	Beat UUID: dd8a6bb0-f3db-4e2a-8297-26138231ad11
+2018-08-03T16:06:07.097+0200	INFO	instance/beat.go:556	
+------------ Starting Jove Parsing Local UID INSTANCE ----------------
+
+2018-08-03T16:06:07.097+0200	INFO	[beat]	instance/beat.go:773	Beat info	{"system_info": {"beat": {"path": {"config": "C:\\Users\\jverkovic\\beat-local\\src\\github.com\\JosipVodafone\\userbeat", "data": "C:\\Users\\jverkovic\\beat-local\\src\\github.com\\JosipVodafone\\userbeat\\data", "home": "C:\\Users\\jverkovic\\beat-local\\src\\github.com\\JosipVodafone\\userbeat", "logs": "C:\\Users\\jverkovic\\beat-local\\src\\github.com\\JosipVodafone\\userbeat\\logs"}, "type": "userbeat", "uuid": "dd8a6bb0-f3db-4e2a-8297-26138231ad11"}}}
+2018-08-03T16:06:07.098+0200	INFO	[beat]	instance/beat.go:782	Build info	{"system_info": {"build": {"commit": "unknown", "libbeat": "7.0.0-alpha1", "time": "1754-08-30T22:43:41.128Z", "version": "7.0.0-alpha1"}}}
+2018-08-03T16:06:07.098+0200	INFO	[beat]	instance/beat.go:785	Go runtime info	{"system_info": {"go": {"os":"windows","arch":"amd64","max_procs":4,"version":"go1.10.3"}}}
+2018-08-03T16:06:07.247+0200	INFO	[beat]	instance/beat.go:789	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2018-08-03T07:13:41.83+02:00","hostname":"EGCPN059","ips":["fe80::137:3f69:2ac6:1691/64","169.254.22.145/16","fe80::d5c0:5e6b:3460:4c64/64","169.254.76.100/16","169.254.212.203/16","10.226.26.22/24","::1/128","127.0.0.1/8","fe80::5efe:ae2:1a16/128"],"kernel_version":"6.1.7601.24094 (win7sp1_ldr_escrow.180330-1600)","mac_addresses":["4a:51:b7:1e:e8:1d","4a:51:b7:1e:e8:1c","48:51:b7:1e:e8:1c","ec:b1:d7:98:0b:0d","00:00:00:00:00:00:00:e0","00:00:00:00:00:00:00:e0","00:00:00:00:00:00:00:e0","00:00:00:00:00:00:00:e0"],"os":{"family":"windows","platform":"windows","name":"Windows 7 Professional","version":"6.1","major":1,"minor":0,"patch":0,"build":"7601.24106"},"timezone":"CEST","timezone_offset_sec":7200,"id":"3bcdece1-216b-4877-b5d1-564dd36fc257"}}}
+2018-08-03T16:06:07.248+0200	INFO	instance/beat.go:276	Setup Beat: userbeat; Version: 7.0.0-alpha1
+2018-08-03T16:06:07.248+0200	INFO	elasticsearch/client.go:163	Elasticsearch url: http://localhost:9200
+2018-08-03T16:06:07.248+0200	INFO	pipeline/module.go:98	Beat name: EGCPN059
+2018-08-03T16:06:07.248+0200	INFO	instance/beat.go:370	userbeat start running.
+2018-08-03T16:06:07.248+0200	INFO	beater/userbeat.go:37	userbeat is running! Hit CTRL-C to stop it.
+2018-08-03T16:06:07.249+0200	INFO	[monitoring]	log/log.go:114	Starting metrics logging every 30s
+2018-08-03T16:06:08.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:09.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:10.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:11.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:12.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:12.256+0200	ERROR	pipeline/output.go:91	Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: connectex: No connection could be made because the target machine actively refused it.
+2018-08-03T16:06:13.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:14.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:15.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:16.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:16.256+0200	ERROR	pipeline/output.go:91	Failed to connect: Get http://localhost:9200: dial tcp [::1]:9200: connectex: No connection could be made because the target machine actively refused it.
+2018-08-03T16:06:17.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:18.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:19.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:20.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:21.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:22.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:22.257+0200	ERROR	pipeline/output.go:91	Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: connectex: No connection could be made because the target machine actively refused it.
+2018-08-03T16:06:23.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:24.248+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:25.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:26.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:27.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:28.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:29.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:30.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:31.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:32.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:32.258+0200	ERROR	pipeline/output.go:91	Failed to connect: Get http://localhost:9200: dial tcp 127.0.0.1:9200: connectex: No connection could be made because the target machine actively refused it.
+2018-08-03T16:06:32.258+0200	INFO	[publish]	pipeline/retry.go:166	retryer: send wait signal to consumer
+2018-08-03T16:06:32.258+0200	INFO	[publish]	pipeline/retry.go:168	  done
+2018-08-03T16:06:33.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:34.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:35.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:36.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:37.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:37.365+0200	INFO	[monitoring]	log/log.go:141	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":218,"time":{"ms":218}},"total":{"ticks":389,"time":{"ms":389},"value":389},"user":{"ticks":171,"time":{"ms":171}}},"info":{"ephemeral_id":"5d935efd-50c7-4e83-a8cd-ff6f7519d8f0","uptime":{"ms":30842}},"memstats":{"gc_next":28259024,"memory_alloc":19625384,"memory_total":22776704,"rss":42659840}},"libbeat":{"config":{"module":{"running":0}},"output":{"type":"elasticsearch"},"pipeline":{"clients":1,"events":{"active":30,"published":30,"retry":2,"total":30}}},"system":{"cpu":{"cores":4}}}}}
+2018-08-03T16:06:38.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:39.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:40.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:41.247+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:42.246+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:43.246+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:44.246+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:45.246+0200	INFO	beater/userbeat.go:62	Event sent
+2018-08-03T16:06:45.511+0200	INFO	[monitoring]	log/log.go:149	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":218,"time":{"ms":218}},"total":{"ticks":389,"time":{"ms":389},"value":389},"user":{"ticks":171,"time":{"ms":171}}},"info":{"ephemeral_id":"5d935efd-50c7-4e83-a8cd-ff6f7519d8f0","uptime":{"ms":39105}},"memstats":{"gc_next":28259024,"memory_alloc":19675800,"memory_total":22827120,"rss":45371392}},"libbeat":{"config":{"module":{"running":0}},"output":{"type":"elasticsearch"},"pipeline":{"clients":0,"events":{"active":38,"published":38,"retry":2,"total":38}}},"system":{"cpu":{"cores":4}}}}}
+2018-08-03T16:06:45.511+0200	INFO	[monitoring]	log/log.go:150	Uptime: 39.1062368s
+2018-08-03T16:06:45.511+0200	INFO	[monitoring]	log/log.go:127	Stopping metrics logging.
+2018-08-03T16:06:45.511+0200	INFO	instance/beat.go:376	userbeat stopped.

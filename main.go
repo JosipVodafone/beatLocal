@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 
 	"github.com/JosipVodafone/userbeat/cmd"
@@ -9,6 +10,7 @@ import (
 )
 
 func main() {
+	fmt.Print("----------------------  Jove Starting User Beat Count beat MAIN-------------------------------")
 	if err := cmd.RootCmd.Execute(); err != nil {
 		os.Exit(1)
 	}
